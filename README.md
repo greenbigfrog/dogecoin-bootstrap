@@ -1,6 +1,6 @@
 # dogecoin-bootstrap
 
-## 2021-05-09: Latest torrent file for a up to date chain (uncompressed) available at https://dogecoin.gg/files/dogecoin-bootstrap-2021-05-09.torrent (Hosted/Maintained by https://github.com/IncognitoJam/IncognitoJam)
+## 2021-05-09: Latest torrent file for a up to date chain (uncompressed) available at https://dogecoin.gg/files/dogecoin-bootstrap-2021-05-09.torrent (Hosted/Maintained by https://github.com/IncognitoJam/IncognitoJam )
 
 Yoinked instructions:
 ```
