@@ -26,11 +26,11 @@ apt update && apt upgrade
 ```
 2. Get the binary files: 
 ```
-wget https://github.com/dogecoin/dogecoin/releases/download/v1.14.3/dogecoin-1.14.3-x86_64-linux-gnu.tar.gz
+wget https://github.com/dogecoin/dogecoin/releases/download/v1.14.4/dogecoin-1.14.4-x86_64-linux-gnu.tar.gz
 ```
 3. Unpack the `tar.gz`: 
 ```
-tar -zxvf dogecoin-1.14.3-x86_64-linux-gnu.tar.gz
+tar -zxvf dogecoin-1.14.4-x86_64-linux-gnu.tar.gz
 ```
 4. Download the torrent file:
 ```
@@ -60,11 +60,11 @@ maxconnections=64" >> ~/.dogecoin/dogecoin.conf
 The default for `maxconnections` is 128, most machines struggle to keep up with this many connections. I've found ~64 to work on most machines if you follow my recommended specs.
 9. Start up dogecoind:
 ```
-~/dogecoin-1.14.3/bin/dogecoind &
+~/dogecoin-1.14.4/bin/dogecoind &
 ```
 10. You can check the status of your core wallet using:
 ```
-~/dogecoin-1.14.3/bin/dogecoin-cli getinfo
+~/dogecoin-1.14.4/bin/dogecoin-cli getinfo
 ```
 11. If the `connections` in `getinfo` is greater then 8, you are successfully running a full core node!
 
